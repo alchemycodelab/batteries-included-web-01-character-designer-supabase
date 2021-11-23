@@ -1,4 +1,4 @@
-# Deliverable 07 - Supabase Dropdown Character Maker
+# Supabase Dropdown Character Maker
 
 [Buggy Supabase Character Designer](https://github.com/alchemycodelab/buggy-js-character-designer-supabase)
 
