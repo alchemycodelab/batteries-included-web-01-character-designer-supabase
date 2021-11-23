@@ -2,7 +2,9 @@
 
 [Buggy Supabase Character Designer](https://github.com/alchemycodelab/buggy-js-character-designer-supabase)
 
+## Learning Objectives
 
+- In response to a user event, make a fetch call to mutate a single object in a state array and display the new state to the user (i.e., complete a todo).
 
 ### Live Example:
 https://alchemycodelab.github.io/js-character-designer/
