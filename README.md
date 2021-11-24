@@ -9,7 +9,7 @@
 ### Live Example:
 https://alchemycodelab.github.io/js-character-designer/
 
-![](assets/character-designer.png)
+![](https://github.com/alchemycodelab/half-baked-js-character-designer-supabase/blob/main/assets/character-designer.png)
 
 | User should be able to . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
