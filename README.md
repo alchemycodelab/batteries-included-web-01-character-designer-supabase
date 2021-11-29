@@ -7,8 +7,7 @@
 [Buggy Supabase Character Designer](https://github.com/alchemycodelab/buggy-js-character-designer-supabase)
 
 ### Live Example:
-https://alchemycodelab.github.io/js-character-designer/
-
+https://fantastic-carnival-aef94da0.pages.github.io/
 
 | User should be able to . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
