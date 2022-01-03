@@ -13,20 +13,6 @@ export async function createCharacter(character){
     return checkError(response);
 }
 
-/*
-CHALLENGE: how would you use this function? which functions would it replace? what's going on with the brackets in the update() arguments?
-export async function updateCharacter(part, value){
-    const currentUserId = client.auth.user().id;
-
-    const response = await client
-        .from('characters')
-        .update({ [part]: value })
-        .match({ user_id: currentUserId });
-
-    return checkError(response);    
-}
-*/
-
 export async function updateHead(value){
     const currentUserId = client.auth.user().id;
 
@@ -66,6 +52,9 @@ export async function updateChatchphrases(value){
 }
 
 
+/*
+CHALLENGE: how would you use this function? which functions would it replace? what's going on with the brackets in the update() arguments?
+
 export async function updateCharacter(part, value){
     const currentUserId = client.auth.user().id;
 
@@ -76,6 +65,8 @@ export async function updateCharacter(part, value){
 
     return checkError(response);    
 }
+*/
+
 
 export async function getCharacter() {
     const response = await client
