@@ -6,6 +6,7 @@
 
 [Buggy Supabase Character Designer](https://github.com/alchemycodelab/buggy-js-character-designer-supabase)
 
+![](./model.png)
 ### Live Example:
 https://alchemycodelab.github.io/web-01-character-designer-supabase/
 
