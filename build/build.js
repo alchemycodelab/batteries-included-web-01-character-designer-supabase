@@ -28,9 +28,6 @@ let headCount = 0;
 let middleCount = 0;
 let bottomCount = 0;
 
-// however, we are _not_ keeping track of catchphrases locally. nonetheless, we need this array here. Why is that, do you think?
-let catchphrases = [];
-
 headDropdown.addEventListener('change', async() => {
     // increment the correct count in state
 
@@ -57,9 +54,11 @@ bottomDropdown.addEventListener('change', async() => {
 catchphraseButton.addEventListener('click', async() => {
     catchphraseInput.value = '';
 
-    // update the catchphrases in state
+    // go fetch the old catch phrases
+    
+    // update the catchphrases array locally by pushing the new catchphrase into the old array
 
-    // update the catchphrases in supabase (be sure to use the catchphrases let in state)
+    // update the catchphrases in supabase by passing the mutated array to the updateCatchphrases function
     refreshData();
 });
 
