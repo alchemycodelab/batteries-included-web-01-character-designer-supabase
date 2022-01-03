@@ -82,13 +82,6 @@ function displayStats() {
     reportEl.textContent = `In this session, you have changed the head ${headCount} times, the body ${middleCount} times, and the pants ${bottomCount} times. And nobody can forget your character's classic catchphrases:`;
 }
 
-function fetchAndDisplayCatchphrases() {
-    // clear out the catchphrases in the DOM
-
-    // fetch the character from supabase to get their catchphrases
-
-    // loop through and display the catchphrases
-}
 
 
 async function fetchAndDisplayCharacter() {
@@ -97,10 +90,11 @@ async function fetchAndDisplayCharacter() {
     // if the character has a head, display the head in the dom
     // if the character has a middle, display the middle in the dom
     // if the character has a pants, display the pants in the dom
+    
+    // loop through catchphrases and display them to the dom (clearing out old dom if necessary)
 }
 
 function refreshData() {
     displayStats();
-    fetchAndDisplayCatchphrases();
     fetchAndDisplayCharacter();
 }
