@@ -6,7 +6,7 @@
 
 [Buggy Supabase Character Designer](https://github.com/alchemycodelab/buggy-js-character-designer-supabase)
 
-Here is the schma for the `characters table:
+Here is the schma for the `characters` table:
 
 ![](./model.png)
 ### Live Example:
