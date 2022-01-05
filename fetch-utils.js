@@ -68,7 +68,6 @@ export async function getCharacter() {
     const response = await client
         .from('characters')
         .select()
-        .match({ user_id: client.auth.user().id, })
         .single();
 
     return checkError(response);    
