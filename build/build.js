@@ -23,7 +23,6 @@ const catchphraseInput = document.getElementById('catchphrase-input');
 const catchphraseButton = document.getElementById('catchphrase-button');
 const logoutButton = document.getElementById('logout');
 
-// we're still keeping track of 'this session' clicks, so we keep these lets
 let headCount = 0;
 let middleCount = 0;
 let bottomCount = 0;
